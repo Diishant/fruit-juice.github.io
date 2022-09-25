@@ -1,0 +1,44 @@
+/* General CSS */
+@import url('httpl://fonts.gooleapis.cpm/css2?family=Barlow+condensed:wght@200;300;400;500;600;700;800;900$display=swap');
+@import url('https://fonts.googleapis.cpm/css2?family=Roboto:wgt@300;400;500;700;900&display=swap');
+
+
+::before,
+::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}
+
+:root {
+
+    /*Background color */
+    --bg-white: #fff;
+
+    /* Text colors */
+    --primary-text: #06cd06;
+    --secondary-color: #60cd12;
+    --light-color: #e2f6e2;
+    --dark-color: #03262c;
+    --text-white: #fff;
+    --text-gray: #dee2e6;
+    --anchor-color: #007aff;
+
+    /* Font Familiy */
+    --primary-font: 'Barlow condensed', sans-serif;
+    --secondary-font: 'Roboto', sans-serif;
+}
+
+body,
+html {
+    color:var(--primary-text);
+    font-size: 10px;
+    font-weight: 400;
+    font-family: var(--primary-font);
+    scroll-behavior: smooth;
+    line-height: 1.5;
+}
